@@ -18,4 +18,4 @@ if __name__ == '__main__':
 
 # Returns '5000' if 'PORT' is not set
     port = os.getenv('PORT', '5000')
-    app.run (port=port, debug=True)
+    app.run (port=port)
